@@ -1,0 +1,195 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: rgb(252, 252, 252);  
+}  
+.container {  
+    padding: 50px;  
+  background-color: rgb(233, 205, 205);  
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #ffffff;
+  border-radius: 25px;  
+}  
+ 
+div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #236130;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9; 
+  border-radius: 25px; 
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+.text-center{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+</style>  
+</head>  
+<body> 
+    <center>  <h1> VIT Hackathon 2022</h1> 
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNPux_cgqyPxtkFOXeKzW9jxSdM807lHLJnTmQ1UZTumVGt9yALMwCuYvDLavquoeqjYs&usqp=CAU" alt="Girl in a jacket" style="width:250px;height:100px;"> 
+        </center>
+         
+<form>  
+  <div class="container">  
+  
+  <hr>
+  <h2 class="text-center">Personal Details </h2> 
+  <hr>
+  <label> <b>Firstname</b> </label>   
+<input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
+<label> <b>Middlename: </b></label>   
+<input type="text" name="middlename" placeholder="Middlename" size="15" required />   
+<label> <b>Lastname: </b></label>    
+<input type="text" name="lastname" placeholder="Lastname" size="15"required /> 
+ <div>  
+    <label>   
+    <b>Gender : </b> 
+    </label><br>  
+    <input type="radio" value="Male" name="gender" checked > Male   
+    <input type="radio" value="Female" name="gender"> Female   
+    <input type="radio" value="Other" name="gender"> Other  
+      
+    </div>
+    <label>   
+        <b>Phone :  </b>
+        </label>  
+        <input type="text" name="phone" placeholder="phone no."  value="+91" size="10" required/>   
+           
+        <b>Current Address :  </b>
+        <textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+        </textarea>  
+ <hr>
+ <h2 class="text-center">Educational Details </h2> 
+ <hr>
+ <label> <b>Reg.No:</b> </label>    
+<input type="text" name="regno" placeholder="Reg.No" size="10"required />  
+<label for="email"><b>Email</b></label>  
+ <input type="text" placeholder="Enter Email" name="email" required>   
+<div>  
+<label>   
+<b>Course :  </b>
+</label>   
+  
+<select>  
+<option value="Course">Course</option>  
+<option value="BCA">BCA</option>  
+<option value="BBA">BBA</option>  
+<option value="B.Tech">B.Tech</option>  
+<option value="MBA">MBA</option>  
+<option value="MCA">MCA</option>  
+<option value="M.Tech">M.Tech</option>  
+</select>  
+</div>
+
+<hr>
+<h2 class="text-center">Skills Information </h2> 
+<div">
+<hr>
+<div>
+    <label><b> Skills: </b></label>
+<br>
+<input type="checkbox" id="skill1" name="skill1" value="frontend">
+  <label for="skill1"> Front End Development</label><br>
+  <input type="checkbox" id="skill2" name="skill2" value="backend">
+  <label for="skill2">Back End Development</label><br>
+  <input type="checkbox" id="skill3" name="skill3" value="fullstack">
+  <label for="skill3">Full Stack Development</label>
+</div> 
+
+<div>
+    <label ><b> Front End Skills: </b></label>
+    <br>
+<input type="checkbox" id="frontskill1" name="frontskill1" value="reactjs">
+  <label for="frontskill1"> React JS</label><br>
+  <input type="checkbox" id="frontskill2" name="frontskill2" value="angular">
+  <label for="skill2">Angular</label><br>
+  <input type="checkbox" id="frontskill3" name="frontskill3" value="htmlcss">
+  <label for="skill3">HTML CSS</label>
+</div> 
+
+<div>
+    <label ><b> Back End Skills </b></label>
+    <br>
+<input type="checkbox" id="backendskill1" name="backendskill1" value="databases">
+  <label for="skill1">Database Systems</label><br>
+  <input type="checkbox" id="banckendskill2" name="backendskill2" value="apis">
+  <label for="skill2">APIs</label><br>
+  <input type="checkbox" id="backendskill3" name="backendskill3" value="servers">
+  <label for="skill3">Servers</label>
+</div> 
+<hr>
+<h2 class="text-center">Team Information</h2>
+<hr>
+<div>
+    <label><b>Team Name:</b></label>
+    <input type="text" name="teamname" placeholder="Team Name" size="15" required />
+</div>
+<div>
+    <label><b>Team Members:</b></label>
+    <input type="text" name="teammembers" placeholder="Team Member 1" size="15" required />
+    <input type="text" name="teammembers" placeholder="Team Member 2" size="15" required />
+    <input type="text" name="teammembers" placeholder="Team Member 3" size="15" required />
+</div>
+
+<div>
+    <label><b>Team Description:</b></label>
+    <textarea cols="80" rows="5" placeholder="Team Description" value="description" required>  
+    </textarea>
+</div>
+<label><b>Hackathon Date Slot:</b></label>
+<input type="date" name="date" placeholder="Add Date" required />
+<label><b>Hackathon Time Slot:</b></label>
+<input type="time" name="time" placeholder="Add Time" required />
+
+<hr>
+<h2 class="text-center">Social Handles</h2>
+<hr>
+<label><b> LinkedIn </b></label>    
+<input type="text" name="LinkedIn" placeholder="LinkedIn URL" required /> 
+<label> <b> LinkedIn </b></label>
+<input type="text" name="Github" placeholder="Github URL" required />
+<label> <b>Facebook </b></label>
+<input type="text" name="Facebook" placeholder="Facebook URL"  />
+<label> <b>Twitter </b></label>
+<input type="text" name="Twitter" placeholder="Twitter URL" />
+<label> <b>Instagram </b></label>
+<input type="text" name="Instagram" placeholder="Instagram URL" />
+
+<hr>
+<h2 class="text-center">Others</h2>
+<hr>
+<label><b>Write up about your idea on implementing project :</b></label>
+<textarea cols="80" rows="5" placeholder="...." value="description" required></textarea>
+
+</form>
+    <button type="submit" class="registerbtn">Register</button>    
+    <button type="reset" class="registerbtn">Reset</button>
+</form> 
+</div>
+</body>  
+</html>  
