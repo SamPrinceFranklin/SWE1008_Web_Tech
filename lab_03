@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>States Of India - Map</title>
+  </head>
+  <body>
+    <center>
+      <h1>States Of India - Map</h1>
+      <h3>Lab 3 - HTML Image Mapping</h3>
+      <h3>Sam Prince Franklin K - 20MIS1115</h3>
+    </center>
+    <img
+      src="https://www.mapsofindia.com/images2/india-map.jpg"
+      usemap="#image-map"
+    />
+
+    <map class="maps" name="image-map">
+      <area
+        target="_self"
+        alt="Tamil Nadu - Chennai"
+        title="Tamil Nadu - Chennai"
+        href="https://www.census2011.co.in/census/state/tamil+nadu.html"
+        coords="263,635,291,629,259,723,231,751,218,748,218,699,210,690,207,680,201,669,225,661,235,646"
+        shape="poly"
+      />
+      <area
+        target="_self"
+        alt="Kerala - Thiruvananthapuram"
+        title="Kerala - Thiruvananthapuram"
+        href="https://www.census2011.co.in/census/state/kerala.html"
+        coords="161,640,184,658,202,679,211,698,214,722,214,736,209,744,192,718,193,696,183,673,175,655"
+        shape="poly"
+      />
+      <area
+        target="_self"
+        alt="Karnataka - Bengaluru"
+        title="Karnataka - Bengaluru"
+        href="https://www.census2011.co.in/census/state/karnataka.html"
+        coords="142,594,147,569,157,545,190,531,214,505,224,518,219,544,211,566,206,593,211,614,223,621,236,631,228,638,217,654,204,660,184,654,161,634"
+        shape="poly"
+      />
+      <area
+        target="_self"
+        alt="Andhra Pradesh - Amaravati"
+        title="Andhra Pradesh - Amaravati"
+        href="https://www.census2011.co.in/census/state/andhra+pradesh.html"
+        coords="219,567,243,562,277,539,309,525,330,510,366,490,382,491,360,521,338,540,311,557,286,574,284,596,279,617,255,626,235,612,213,596,213,579"
+        shape="poly"
+      />
+      <area
+        target="_self"
+        alt="Telangana - Hyderabad"
+        title="Telangana - Hyderabad"
+        href="https://www.census2011.co.in/census/state/andhra+pradesh.html"
+        coords="230,548,228,529,228,506,230,483,239,471,245,465,270,465,283,470,285,482,297,497,307,508,296,522,270,536,250,547"
+        shape="poly"
+      />
+      <area
+        target="_self"
+        alt="Maharashtra - Mumbai"
+        title="Maharashtra - Mumbai"
+        href="https://www.census2011.co.in/census/state/maharashtra.html"
+        coords="113,455,133,443,139,421,154,407,177,418,199,421,217,420,231,420,259,420,279,420,295,440,293,455,261,456,245,460,229,468,217,487,209,496,199,505,184,516,166,528,146,543,142,560,127,543,117,507,114,476"
+        shape="poly"
+      />
+      <area
+        target="_self"
+        alt="Madhya Pradesh - Bhopal"
+        title="Madhya Pradesh - Bhopal"
+        href="census2011.co.in/census/state/madhya+pradesh.html"
+        coords="153,393,155,373,159,351,163,331,175,335,183,352,213,343,216,321,210,310,226,300,251,283,258,309,250,327,256,341,256,326,267,327,299,318,332,342,329,356,326,377,316,397,304,407,281,407,249,411,188,410"
+        shape="poly"
+      />
+      <area
+        target="_self"
+        alt="Gujarat - Gandhinagar"
+        title="Gujarat - Gandhinagar"
+        href="https://www.census2011.co.in/census/state/gujarat.html"
+        coords="24,346,48,343,80,343,105,343,127,352,133,363,140,370,141,393,140,405,117,439,115,406,100,401,93,419,65,426,38,415,25,394,46,390,56,373,35,375,13,369,10,353"
+        shape="poly"
+      />
+      <area
+        target="_self"
+        alt="Rajasthan - Jaipur"
+        title="Rajasthan - Jaipur"
+        href="https://www.census2011.co.in/census/state/rajasthan.html"
+        coords="61,284,47,269,61,245,89,246,107,229,123,213,137,190,153,202,161,211,168,219,178,236,190,253,210,253,226,261,220,276,213,283,207,294,206,323,193,333,167,317,150,325,148,351,122,343,85,322"
+        shape="poly"
+      />
+      <area
+        target="_self"
+        alt="Uttar Pradesh - Lucknow"
+        title="Uttar Pradesh - Lucknow"
+        href="https://www.census2011.co.in/census/state/uttar+pradesh.html"
+        coords="233,252,228,230,227,213,232,203,243,204,253,212,266,220,281,226,303,242,329,249,349,266,380,275,382,287,377,300,375,313,362,340,335,328,319,311,298,311,273,302,245,271"
+        shape="poly"
+      />
+      <area
+        target="_self"
+        alt="Punjab - Chandighar"
+        title="Punjab - Chandighar"
+        href="https://www.census2011.co.in/census/state/punjab.html"
+        coords="149,181,161,163,162,152,172,144,185,152,189,160,199,168,199,183,195,189,179,197,159,194"
+        shape="poly"
+      />
+      <area
+        target="_self"
+        alt="Odisha - Bhuvaneshwar"
+        title="Odisha - Bhuvaneshwar"
+        href="https://www.census2011.co.in/census/state/orissa.html"
+        coords="332,494,338,465,335,451,348,455,347,439,356,436,373,421,377,397,393,393,411,403,430,403,433,398,450,408,450,441,434,452,410,472,369,481"
+        shape="poly"
+      />
+      <area
+        target="_self"
+        alt="Chhattisgarh - Raipur"
+        title="Chhattisgarh - Raipur"
+        href="https://www.census2011.co.in/census/state/chhattisgarh.html"
+        coords="299,486,299,464,300,445,300,426,318,402,327,391,337,373,337,355,362,360,372,370,372,392,360,417,343,433,337,444,327,463,324,483,316,500"
+        shape="poly"
+      />
+      <area
+        target="_self"
+        alt="Himachal Pradesh - Shimla"
+        title="Himachal Pradesh - Shimla"
+        href="https://www.census2011.co.in/census/state/himachal+pradesh.html"
+        coords="193,136,204,119,223,122,233,124,243,128,251,150,248,164,230,176,210,161,202,152"
+        shape="poly"
+      />
+      <area
+        target="_self"
+        alt="Haryana - Delhi"
+        title="Haryana - Delhi"
+        href="https://www.census2011.co.in/census/state/haryana.html"
+        coords="172,201,191,201,217,194,226,194,222,214,222,220,222,239,222,248,193,237,177,219"
+        shape="poly"
+      />
+      <area
+        target="_self"
+        alt="Jammu &amp; Kashmir - Srinagar"
+        title="Jammu &amp; Kashmir - Srinagar"
+        href="https://www.census2011.co.in/census/state/jammu+and+kashmir.html"
+        coords="178,127,163,124,148,117,141,98,141,78,148,71,152,48,128,43,128,21,144,17,171,12,190,18,202,33,215,33,247,35,280,38,278,64,269,74,263,102,268,113,265,125,234,115,216,103"
+        shape="poly"
+      />
+      <area
+        target="_self"
+        alt="Uttarakhand - Dehradun"
+        title="Uttarakhand - Dehradun"
+        href="https://www.census2011.co.in/census/state/uttarakhand.html"
+        coords="244,175,251,164,270,164,281,171,291,172,308,186,301,202,299,208,284,208,270,208,244,196"
+        shape="poly"
+      />
+      <area
+        target="_self"
+        alt="Jharkhand -Ranchi"
+        title="Jharkhand -Ranchi"
+        href="https://www.census2011.co.in/census/state/jharkhand.html"
+        coords="373,343,391,343,414,343,433,343,466,323,465,340,438,355,436,365,436,380,408,381,386,368"
+        shape="poly"
+      />
+    </map>
+    <style>
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+    </style>
+  </body>
+</html>
