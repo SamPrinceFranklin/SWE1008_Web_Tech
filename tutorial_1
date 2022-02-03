@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class Work - 03/02/2022</title>
+</head>
+
+<body style="background-color: #FD3A69">
+    <center id="navi">
+        <h1 style="color: aqua;">Pizza Shop - VIT</h1>
+        <br />
+        <h3 style="color: #FECD1A;">Sam Prince Franklin</h3>
+        <br />
+        <h2>Menu</h2>
+    </center>
+    <div class="nav">
+        <center>
+            <a href="#section1" class="btn">
+                <h2>Butter Chicken Pizza</h2>
+            </a>
+            <a href="#section2" class="btn">
+                <h2>Sweet And Corn Chicken Pizza</h2>
+            </a>
+            <a href="#section3" class="btn">
+                <h2>Garlic Prawn Pizza</h2>
+            </a>
+        </center>
+        <hr />
+    </div>
+    <div>
+        <div class="section one" id="section1">
+            <h2>
+                <u><b>Butter Chicken Pizza :</b></u>
+            </h2>
+            <img src="https://nishkitchen.com/wp-content/uploads/2016/05/butter-chicken-pizza-2B-480x360.jpg" alt=""
+                width="500px" height="500px" />
+            <br />
+            <h3><b>Quantity :</b></h3>
+
+            <select name="quantity" id="quantity">
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four +</option>
+            </select>
+            <p>
+                > Pizza topped with butter chicken, very flavorful and extremely
+                delicious…<br />
+
+                > I’d made pizzas with different kinds of toppings, but this one really
+                blew me away. I’d tasted butter chicken pizza from one of the pizza
+                stores in my city, it was absolutely delicious and since then I’d been
+                wanting to try this.
+                <br />
+                > My Man had asked me to make pizza a couple of weeks ago, I kept
+                postponing and it was last weekend I finally made him happy with this
+                butter chicken pizza.
+                <br />
+                > I’d already posted the recipe for making a few kinds of pizzas and for
+                all those I’d used the same recipe for making the pizza dough. That’s my
+                absolute favorite recipe and so I followed that even for making this
+                pizza dough. Butter chicken is a popular dish in India, you could find
+                this dish on the menu of almost all Indian restaurants. I’d already
+                posted the recipe for making butter chicken recipe, I used the same
+                recipe for making this butter chicken topping. I made the gravy really
+                thick so that it can be spread on the pizza dough, topped the pizza with
+                red onion, red pepper and cheese.
+                <br />
+                > I cannot get over with the taste of this pizza, it tasted extremely
+                flavorful and delicious. This is definitely one of my favorite pizzas.
+                <br />
+        </div>
+        <a href="#navi" class="btn">
+            <h2>Go To Top</h2>
+        </a>
+        </p>
+    </div>
+    <hr />
+    <div class="section two" id="section2"></div>
+    <h2>
+        <u><b>Sweet & Corn Chicken Pizza</b></u>
+    </h2>
+    <img src="http://3.bp.blogspot.com/-ZjzA6PKwqfM/U99mEpeGx_I/AAAAAAAAk6A/LYswqZUtZnc/s1600/IMG_9150.JPG" alt=""
+        width="500px" height="500px" />
+    <br />
+    <h3><b>Quantity :</b></h3>
+
+    <select name="quantity" id="quantity">
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+        <option value="4">Four +</option>
+    </select>
+    <p>
+        > Pizza topped with butter chicken, very flavorful and extremely
+        delicious…<br />
+
+        > I’d made pizzas with different kinds of toppings, but this one really
+        blew me away. I’d tasted butter chicken pizza from one of the pizza
+        stores in my city, it was absolutely delicious and since then I’d been
+        wanting to try this.
+        <br />
+        > My Man had asked me to make pizza a couple of weeks ago, I kept
+        postponing and it was last weekend I finally made him happy with this
+        butter chicken pizza.
+        <br />
+        > I’d already posted the recipe for making a few kinds of pizzas and for
+        all those I’d used the same recipe for making the pizza dough. That’s my
+        absolute favorite recipe and so I followed that even for making this
+        pizza dough. Butter chicken is a popular dish in India, you could find
+        this dish on the menu of almost all Indian restaurants. I’d already
+        posted the recipe for making butter chicken recipe, I used the same
+        recipe for making this butter chicken topping. I made the gravy really
+        thick so that it can be spread on the pizza dough, topped the pizza with
+        red onion, red pepper and cheese.
+        <br />
+        > I cannot get over with the taste of this pizza, it tasted extremely
+        flavorful and delicious. This is definitely one of my favorite pizzas.
+        <br />
+        <a href="#navi" class="btn">
+            <h2>Go To Top</h2>
+        </a>
+    </p>
+    </div>
+    <hr />
+    <div class="section three" id="section3"></div>
+    <h2>
+        <u><b>Garlic Prawn Pizza</b></u>
+    </h2>
+    <img src="https://myfoodbook.com.au/sites/default/files/styles/sr_mo/public/recipe_photo/Cost201812310_0.jpg" alt=""
+        width="500px" height="500px" />
+    <br />
+    <h3><b>Quantity :</b></h3>
+
+    <select name="quantity" id="quantity">
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+        <option value="4">Four +</option>
+    </select>
+    <p>
+        > Favourite seafood? Prawns, prawns and more of prawns. <br>
+        > A wide variety of small crustaceans, tiny relatives of the lobster, are known as prawns. <br>
+        > Prawns are normally translucent when raw but get their distinctive pink or red colour on being cooked. <br>
+        > One word of caution – if buying unpeeled prawns, smell for freshness and look for bright, shiny shells that
+        have some spring left in them.<br>
+        <a href="#navi" class="btn">
+            <h2>Go To Top</h2>
+        </a>
+        <br />
+    </p>
+    </div>
+</body>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    .row {
+        display: flex;
+    }
+    .column {
+        flex: 50%;
+        padding: 10px;
+        height: 300px;
+    }
+</style>
+</html>
