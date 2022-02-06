@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <style>
+        div {
+          margin-bottom: 10px;
+          width: 500px;
+          border-radius: 50;
+        }
+        label {
+          display: inline-block;
+          width: 120px;
+          color: #000000;
+          font-weight: bold;
+        }
+        fieldset {
+          background: #ffffff;
+        }
+        legend {
+          padding: 20px 0;
+          font-size: 20px;
+          color: #070003;
+          font-weight: bolder;
+        }
+        .w3-button {width:150px;}
+        .formfield * {
+  vertical-align: middle;
+}
+input:focus {
+  background-color: #ffb15d;
+}
+textarea:focus {
+  background-color: #ffb15d;
+}
+.submit:hover {
+  background: #f1aeae;
+}
+
+.submit {
+  width: 200px;
+  height: 40px;
+  background-color: #FF8500;
+}
+      </style>
+    <body>
+       <div>
+        <form>
+            <fieldset>
+              <h2>Personal Information</h2>
+              <hr>
+              <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" autofocus required>
+              </div>
+              <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+              </div>
+              <div>
+                
+                <div class="container">
+                  <label for="date">Telephone :</label>
+                  <input type="text" maxlength="3" size="3" />-
+                  <input type="text" maxlength="3" size="3" />-
+                  <input type="text" maxlength="3" size="3" />
+                
+                  </div></div>
+
+              <div>
+                <label for="birth-day">Subject:</label>
+                <select name="" id="cars" required>
+                    <option>General</option>
+                    <option>Special</option>
+                  
+                  </select>
+              </div>
+              <div class="formfield">
+              <legend>Message</legend>
+              <div>
+                <textarea id="message" rows="10" cols="30"></textarea>
+              </div>
+            </div>
+            <input type="submit" class="submit">
+
+            
+              <script>
+                var container = document.getElementsByClassName("container")[0];
+                  container.onkeyup = function(e) {
+                      var target = e.srcElement || e.target;
+                      var maxLength = parseInt(target.attributes["maxlength"].value, 10);
+                      var myLength = target.value.length;
+                      if (myLength >= maxLength) {
+                          var next = target;
+                          while (next = next.nextElementSibling) {
+                              if (next == null)
+                                  break;
+                              if (next.tagName.toLowerCase() === "input") {
+                                  next.focus();
+                                  break;
+                              }
+                          }
+                      }
+                    // Move to previous field if empty (user pressed backspace)
+                    else if (myLength === 0) {
+                        var previous = target;
+                        while (previous = previous.previousElementSibling) {
+                            if (previous == null)
+                                break;
+                            if (previous.tagName.toLowerCase() === "input") {
+                                previous.focus();
+                                break;
+                            }
+                        }
+                    }
+                }
+              </script>
+            </fieldset>
+          </form>
+       </div>
+        
+        
+    </body>
+</html>
