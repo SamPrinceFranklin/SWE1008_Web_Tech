@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Forum</title>
+    <link rel="stylesheet" href="/Q1/styles.css">
+</head>
+
+<body>
+    <div id="personal" class="box">
+        <h3>Personal</h3>
+        <form>
+            <div class="field">
+                <label>Name <span class="mandatory-red">*</span></label>
+                <input type="text">
+            </div>
+
+            <div class="field">
+                <label>Email <span class="mandatory-red">*</span></label>
+                <input type="text">
+            </div>
+
+            <div class="field">
+                <label>Phone <span class="mandatory-red">*</span></label>
+                <input type="text">
+            </div>
+
+            <div class="field">
+                <label>Subject <span class="mandatory-red">*</span></label>
+                <select name="subject" id="">
+                    <option value="Appointment">Appointment</option>
+                    <option value="Leave">Leave</option>
+                </select>
+            </div>
+        </form>
+    </div>
+
+    <div id="message" class="box">
+        <h3>Message</h3>
+        <form>
+            <div class="field">
+                <label for="message">Message <span class="mandatory-red">*</span></label>
+                <textarea name="" id="" cols="20" rows="5"></textarea>
+            </div>
+
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+<style>
+    button{
+          font-size: 20px;
+          border: none;
+          background: #EB3B88;
+          cursor: pointer;
+          margin-left: 40px;
+          color: white;
+      }
+    .box {
+    border: 3px solid pink;
+    background-color: rgb(255, 247, 248);
+    width: 20%;
+
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px;
+    position: relative;
+    font-size: 1.2em;
+}
+
+.box h3 {
+    border: 3px solid pink;
+    border-bottom: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: fit-content;
+    position: absolute;
+    background-color: rgb(255, 247, 248);
+    color: rgb(253, 127, 148);
+    top: -40px;
+    font-weight: lighter;
+    padding: 5px;
+}
+
+.field {
+    margin: 20px;
+}
+
+.field label {
+    font-weight: bold;
+    color: rgb(253, 127, 148);
+    margin-right: 20px;
+    display: inline-block;
+    width: 100px;
+}
+
+.mandatory-red {
+    color: red;
+}
+
+input, select, textarea {
+    border: 2px solid pink;
+    box-shadow: 1px 1px 2px pink;
+    color: rgb(253, 127, 148);
+    line-height: 20px;
+    font-size: 16px;
+}
+
+select {
+    height: 30px;
+    width: 170px;
+}
+</style>
+
+</html>
